@@ -5,6 +5,9 @@
 #include <windows.h>
 
 #include "menu.h"
+#include "User.h"
+#include "Bus.h"
+#include "Routes.h"
 
 using namespace std;
 
