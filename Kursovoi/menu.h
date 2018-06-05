@@ -168,6 +168,12 @@ int info_menu()
 int authorization_form()
 {
 	authorization_info();
+	cout << "¬ведите им€ пользовател€: ";
+	string User_Name;
+	cin >> User_Name;
+	cout << "¬ведите пароль: ";
+	string Password;
+	cin >> Password;
 
 	return 0;
 }
