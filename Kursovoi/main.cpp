@@ -1,5 +1,10 @@
 #include <iostream>
 #include <conio.h>
+#include <string>
+#include <fstream>
+#include <windows.h>
+
+#include "menu.h"
 
 using namespace std;
 
@@ -7,7 +12,7 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 
-	cout << "Привет!";
+	main_menu();
 
-	_getch();
+	return 0;
 }
